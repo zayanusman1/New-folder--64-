@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<body>
+    <h1>Call Stack</h1>
+    <p>DO a calc and then display the result</p>
+    <p id="demo"></p>
+    <script>
+        function add(a, b) {
+            return a + b;
+        }
+        function average(a, b) {
+            return add(a, b) / 3;
+        }
+        let result = average(0, 2);
+        document.getElementById("demo").innerHTML = result;
+    </script>
+</body>
+
+</html>
