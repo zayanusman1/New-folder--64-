@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+    <body>
+        <h2>Js Obj Data structure and Array</h2>
+        <script>
+            var student = {
+                name: 'zakaria',
+                age: 25,
+                grade: '10',
+                hobbies: ['football', 'coding', 'music'],
+                fav_color: 'blue',
+                fav_food: 'pizza',
+                fav_movie: 'inception',
+                fav_sport: 'football'
+            };
+            var color = ["red", "green", "blue", "yellow"];
+            document.write("Student Name: " + student.name + "<br>","Student Age: " + student.age + "<br>", "Student Grade: " + student.grade + "<br>", "Student Hobbies: " + student.hobbies.join("| ") + "<br>", "Student Favorite Color: " + student.fav_color + "<br>", "Student Favorite Food: " + student.fav_food + "<br>", "Student Favorite Movie: " + student.fav_movie + "<br>", "Student Favorite Sport: " + student.fav_sport + "<br>");
+            document.write("<br>Before Poping the colors are: " + color.join(" ^"));
+            document.write("<br>My favorite color is : " + color[3]);
+            color.pop();
+            document.write("<br>After Poping the colors are: " + color.join(" ^"));
+        </script>
+    </body>
+</html>
